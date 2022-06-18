@@ -145,6 +145,15 @@ img{
 }
 
 
+.attribution{
+    display: block;
+     margin-top: 10px;
+     /* justify-content: center;
+     align-items: center;*/
+     text-align:center;
+     gap: 10px;
+     align-items: baseline;
+}
 
 
 
@@ -153,7 +162,15 @@ img{
 
 
 
-/* Responsiveness */
+
+
+
+
+
+
+
+
+/*======= Responsiveness======= */
 @media (min-width:900px){
      .preview-card{
           display: flex;
@@ -204,4 +221,12 @@ img{
      .ratings{
           gap:1.3rem;
      }
+
+     .attribution{
+          display: flex;
+          justify-content: center;
+          align-items: baseline;
+          gap: 4px;
+     }
+
 }
